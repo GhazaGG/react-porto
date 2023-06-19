@@ -13,12 +13,15 @@
     place-items: center;
 }
 
+
 .about__me:hover{
     transform: rotate(15deg);
     transition: var(--transition);
 }
-
-
+.about__content {
+    display: flex;
+    align-items: center;
+}
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
@@ -27,7 +30,6 @@
 
 .about__content h1 {
     font-size: 2.1rem;
-    padding-top: 3rem;
 }
 
 /* mededia queries (meedium) */
@@ -46,7 +48,6 @@
     .about__content h1 {
         margin: 1rem 0 1.5rem;
         font-size: 1.7rem;
-        padding-top: 1rem;
     }
 
     .about__content p {
@@ -72,7 +73,6 @@
     .about__content h1 {
         margin: 1rem 0 1.5rem;
         font-size: 1.6rem;
-        padding-top: .5rem;
     }
     .about__content p{
         margin: 1.5rem 0;
