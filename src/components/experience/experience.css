@@ -45,12 +45,12 @@
     display: grid;
     width: 100%;
     gap: 1.8rem;
-    grid-template-columns: 12rem auto;
+    grid-template-columns: 20rem 50rem;
     font-family: 'Inter', sans-serif;
+    border: 1px solid blue;
 }
 
 aside{
-    height: 100vh;
     border: 1px solid red;
 }
 
@@ -58,6 +58,27 @@ aside .sidebar{
     display: flex;
     flex-direction: column;
     position: relative;
+    padding: 6px 12px;
+    text-transform: uppercase;
+}
+
+.work-nav {
+    border: 1px solid red;
+    padding: 6px ;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.work-nav:active{
+    background-color: var(--color-primary);
+
+}
+
+.work-content{
+    border: 1px solid white;
+    height: 60vh;
 }
 
 /* mededia queries (meedium) */

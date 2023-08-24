@@ -10,8 +10,8 @@ const Experience = () => {
         <div className='work-container'>
             <aside className='work-navbar'>
                 <div className="sidebar">
-                    <a className={`work ${activeView == 'personal peroject' ? 'active' :''}`} onClick={()=> setActiveView('personal project')}>Personal Project</a>
-                    <a className={`work ${activeView == 'bangkit academy' ? 'active': ''}`} onClick={()=> setActiveView('bangkit academy')}>Bangkit Academy</a>
+                    <span className={`work-nav ${activeView == 'personal peroject' ? 'active' :''}`} onClick={()=> setActiveView('personal project')}>Personal Project</span>
+                    <span className={`work-nav ${activeView == 'bangkit academy' ? 'active': ''}`} onClick={()=> setActiveView('bangkit academy')}>Bangkit Academy</span>
                 </div>
             </aside>
 
