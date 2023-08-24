@@ -39,7 +39,26 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+.work-container{
+    margin-top: 2rem;
+    margin-left: 15rem;
+    display: grid;
+    width: 100%;
+    gap: 1.8rem;
+    grid-template-columns: 12rem auto;
+    font-family: 'Inter', sans-serif;
+}
 
+aside{
+    height: 100vh;
+    border: 1px solid red;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
 /* mededia queries (meedium) */
 
